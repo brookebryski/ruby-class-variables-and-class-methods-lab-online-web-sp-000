@@ -23,7 +23,7 @@ class Song
   end
 
   def self.artists
-    @@artists_uniq!
+    @@artists_uniq
   end
 
   def self.genre_count
